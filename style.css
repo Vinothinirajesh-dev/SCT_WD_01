@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+}
+
+#menu a {
+    color: rgb(20, 31, 108);
+    margin: 10px;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.main {
+    margin-top: 80px;
+    height: 300px;
+    text-align: center;
+}
+
+.space {
+    height: 800px;
+    text-align: center;
+}
